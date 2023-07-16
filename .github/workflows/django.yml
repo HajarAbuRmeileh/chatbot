@@ -79,11 +79,9 @@ jobs:
           manifests: |
             kubernetes/deploy.yml
           images: |
-            hajaraburmeileh/chatbot:${{ github.sha }}
+            hajaraburmeileh/chatbot:latest
 
 
-#hajaraburmeileh/simplecalc:${{ github.sha }}
-    
    
 
 
